@@ -23,13 +23,6 @@ Three notebooks and a kmnist ML package were developed.
 3. `reclassification.ipynb` Exploratory notebook which investigates the misclassification of labels 2 and 6.
 4. `distribution.ipynb` Exploratory notebook which investigates the uneven distrbution of training data.
 
-## Data
-The data should be downloaded from [here](https://www.kaggle.com/c/acse-module-8-19/data).
-
-This should be placed in a folder within your google drive named "acse-module-8-19/" such that the following path is valid, and all the data is within this directory: 
-
-`/content/gdrive/My Drive/Colab Notebooks/Mini-Project/acse-module-8-19/`
-
 ## End-Result
 On top of developing a neural network model for classification, we also:
 1. Removed unevenly distributed data for training our model. 
@@ -43,6 +36,13 @@ PyTorch models can be found in [models folder](https://github.com/kev-fung/KMNIS
 An extension into investigating the misclassification of predictions was carried out. It was found from the confusion matrix that labels 2 and 6 were getting confused. Upon looking into the actual characters corresponding to 2 and 6 it was clear how the neural network was misclassifying.
 
 An idea to apply a 2D dimensionality reduction onto the predicted label features and reclassifying the two labels using a much simpler logistic regression model was explored. See [distribution.ipynb](https://github.com/kev-fung/KMNIST-Classifier/blob/master/distribution.ipynb)
+
+## Data
+The data should be downloaded from [here](https://www.kaggle.com/c/acse-module-8-19/data).
+
+This should be placed in a folder within your google drive named "acse-module-8-19/" such that the following path is valid, and all the data is within this directory: 
+
+`/content/gdrive/My Drive/Colab Notebooks/Mini-Project/acse-module-8-19/`
 
 ## Relevant Links:
 - Team Registration: https://www.kaggle.com/t/3713b8edcaab4ac7ac6045d7353c1aba
