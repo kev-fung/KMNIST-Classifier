@@ -36,7 +36,7 @@ PyTorch models can be found in [models folder](https://github.com/kev-fung/KMNIS
 ## Extension
 An extension into investigating the misclassification of predictions was carried out. It was found from the confusion matrix that labels 2 and 6 were getting confused. Upon looking into the actual characters corresponding to 2 and 6 it was clear how the neural network was misclassifying.
 
-An idea to apply a 2D dimensionality reduction onto the predicted label features and reclassifying the two labels using a much simpler logistic regression model was explored. See [distribution.ipynb](https://github.com/kev-fung/KMNIST-Classifier/blob/master/distribution.ipynb)
+An idea to apply a 2D dimensionality reduction onto the predicted label features and reclassifying the two labels using a much simpler logistic regression model was explored. See [distribution.ipynb](https://github.com/kev-fung/KMNIST-Classifier/blob/master/Distributions.ipynb)
 
 ## Data
 The data should be downloaded from [here](https://www.kaggle.com/c/acse-module-8-19/data).
