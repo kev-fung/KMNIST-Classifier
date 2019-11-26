@@ -9,7 +9,7 @@ Hugo Coussens, Kevin Fung, Falola Yusuf, Nitchakul Pipitvej
   <img src="./misc/front_img.PNG" alt="front_img" width="295">
 </p>
 
-The Kuzushiji-MNIST dataset (KMNIST) is a collection of ancient japanese characters. The problem arises out from the need to fast identify almost unrecognisable japanese texts. The project aim is to design an AlexNet based neural network model and pipeline to be able to accurately classify these japanese characters.
+The Kuzushiji-MNIST dataset (KMNIST) is a collection of ancient japanese characters. The problem arises out from the need to fast identify almost unrecognisable japanese texts. The project aim is to design an LeNet5/AlexNet based neural network model and pipeline to be able to accurately classify these japanese characters. 
 
 ## Preparation/Usage
 Pytorch and sklearn were dependencies for machine learning. 
@@ -30,8 +30,12 @@ This should be placed in a folder within your google drive named "acse-module-8-
 
 `/content/gdrive/My Drive/Colab Notebooks/Mini-Project/acse-module-8-19/`
 
-## Result
-The final model obtained an accuracy of 97.914% on the private leaderboard, and 98.266% on the public leaderboard.
+## End-Result
+On top of developing a neural network model for classification, we also:
+1. Removed unevenly distributed data for training our model. 
+2. Performed a hard-implementation of random-grid search combination for hyperparameter tuning.
+
+The final model obtained an accuracy of **97.914%** on the private leaderboard, and **98.266%** on the public leaderboard.
 
 PyTorch models can be found in [models folder](https://github.com/kev-fung/KMNIST-Classifier/blob/master/models/).
 
