@@ -1,4 +1,4 @@
-# ACSE-8-Mini-Project
+# Kuzushiji-MNIST Classifier Challenge
 
 HUGO COUSSENS, KEVIN FUNG, FALOLA YUSUF, NITCHAKUL PIPITVEJ
 
