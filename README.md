@@ -12,7 +12,7 @@ Hugo Coussens, Kevin Fung, Falola Yusuf, Nitchakul Pipitvej
 The Kuzushiji-MNIST dataset (KMNIST) is a collection of ancient japanese characters. The problem arises out from the need to fast identify almost unrecognisable japanese texts. The project aim is to design an AlexNet based neural network model and pipeline to be able to accurately classify these japanese characters.
 
 ## Preparation/Usage
-Pytorch and sklearn were the dependencies for machine learning. 
+Pytorch and sklearn were dependencies for machine learning. 
 
 Because our exploration was carried out via Google Colab, the majority of machine learning functionalities were encapsulated in the package [kmnist_helpers](https://github.com/kev-fung/KMNIST-Classifier/blob/master/kmnist_helpers/) to keep notebooks uncluttered. This can then be uploaded onto the google drive and imported into the virtual machine. 
 
