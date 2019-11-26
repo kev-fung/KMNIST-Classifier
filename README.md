@@ -26,6 +26,7 @@ Three notebooks and a kmnist ML package were developed.
 ## End-Result
 The final model obtained an accuracy of **97.914%** on the private leaderboard, and **98.266%** on the public leaderboard.
 
+**Method**
 1. Developed an AlexNet neural network for classification with Adam optimiser.
 2. Removed unevenly distributed data for training our model. 
 3. Performed a hard-implementation of random-grid search combination for hyperparameter tuning.
