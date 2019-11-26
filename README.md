@@ -33,7 +33,7 @@ This should be placed in a folder within your google drive named "acse-module-8-
 ## Result
 The final model obtained an accuracy of 97.914% on the private leaderboard, and 98.266% on the public leaderboard.
 
-Models are saved in the results folder.
+PyTorch models can be found in [models folder](https://github.com/kev-fung/KMNIST-Classifier/blob/master/models/).
 
 ## Extension
 An extension into investigating the misclassification of predictions was carried out. It was found from the confusion matrix that labels 2 and 6 were getting confused. Upon looking into the actual characters corresponding to 2 and 6 it was clear how the neural network was misclassifying.
